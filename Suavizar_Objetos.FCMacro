@@ -1,0 +1,13 @@
+# Script para suavizar nuestros objetos
+
+suavizando = False
+
+seleccion=Gui.Selection.getSelection()
+for objeto in seleccion:
+    if objeto.ViewObject.Deviation>0.01:
+        objeto.ViewObject.Deviation=0.01
+        suavizando = True
+
+if suavizando == False:
+    for objeto in seleccion:
+        objeto.ViewObject.Deviation=0.5
