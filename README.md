@@ -26,4 +26,6 @@ En FreeCAD, cambia el suavizado (Deviation) de las piezas seleccionadas
 20. Aunque el proceso está hecho, es posible que no veas el icono de la barra hasta que cambies de banco de trabajo o reinicies FreeCAD.
 
 
-Notas: El icono pertenece a Rafael García Rodríguez
+### Notas:
+
+El icono pertenece a Rafael García Rodríguez
